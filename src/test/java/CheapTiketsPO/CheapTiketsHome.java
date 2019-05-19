@@ -1,14 +1,27 @@
 package CheapTiketsPO;
 
-
+import cheapTiketsTest.resultsStrToInt;
+import com.sun.corba.se.impl.transport.ByteBufferPoolImpl;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import javax.print.DocFlavor;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class CheapTiketsHome extends BasePage {
+public class CheapTiketsHome {
+
+    private WebDriver driver;
+    private WebDriverWait wait;
 
     @FindBy(how = How.ID,using = "primary-header-hotel")
     private WebElement hotelLink;
@@ -37,7 +50,9 @@ public class CheapTiketsHome extends BasePage {
 
 
     public CheapTiketsHome(WebDriver driver){
-        super(driver);
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver,10);
+        PageFactory.initElements(this.driver,this);
     }
 
     public void hotelLinkClick(){
@@ -65,23 +80,23 @@ public class CheapTiketsHome extends BasePage {
     public void ChildrenBoxAndAge(String Children,String Age){
         Select dropChildren =  new Select(childrenLbl);
         dropChildren.selectByValue(Children);
-        super.getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         Select dropAge =  new Select(childrenAge);
         dropAge.selectByValue(Age);
     }
 
     public void clickSearchButton(){
         searchButton.click();
-        super.getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        this.driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
     public void clickCheckIn(){
-        super.getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         this.checkInDate.sendKeys("0");
     }
 
     public void clickCheckOut(){
-        super.getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         this.checkOutDate.sendKeys("0");
     }
 

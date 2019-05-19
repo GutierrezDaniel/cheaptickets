@@ -3,16 +3,22 @@ package cheapTiketsTest;
 import CheapTiketsPO.CheapTiketsHome;
 import CheapTiketsPO.cheapTiketsCalendars;
 import CheapTiketsPO.cheapTiketsResults;
+import javafx.util.converter.LocalDateTimeStringConverter;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ScreenShots;
-import utils.resultsStrToInt;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class cheapTiketsTest {
@@ -32,8 +38,7 @@ public class cheapTiketsTest {
     private String Children = "1";
     private String ChildrenAge = "7";
     private String HotelName = "Faena Hotel Miami Beach";
-    private String HotelShort = "Fae";
-    private String SreenShotName = "CheckAssert";
+    private String ScreenShot = "CheckAssert";
     /* -----------------------------------------------  */
 
 
@@ -51,6 +56,7 @@ public class cheapTiketsTest {
         this.CheapTikets = new CheapTiketsHome(this.driver);
         this.CheapTktRes = new cheapTiketsResults(this.driver);
         this.Calendars = new cheapTiketsCalendars(this.driver);
+
         CheapTikets.hotelLinkClick();
         CheapTikets.goingToDestination(Destination);
         //CheapTikets.checkInDate(CheckInDate); -------- Sin Bonus
@@ -62,13 +68,11 @@ public class cheapTiketsTest {
         CheapTikets.AdultBox(Adults);
         CheapTikets.ChildrenBoxAndAge(Children,ChildrenAge);
         CheapTikets.clickSearchButton();
-        //CheapTktRes.SearchByProperty(HotelName); -------- Sin Bonus
-        CheapTktRes.SearchByPropertyShort(HotelShort);
+        CheapTktRes.SearchByProperty(HotelName);
 
         Assert.assertTrue(checkResultsHotels());
         Assert.assertTrue(checkValidResults(this.Destination));
-        ScreenShots screenShot = new ScreenShots(this.driver,SreenShotName);
-
+        ScreenShots ScreenShot = new ScreenShots(this.driver,this.ScreenShot);
 
     }
 
