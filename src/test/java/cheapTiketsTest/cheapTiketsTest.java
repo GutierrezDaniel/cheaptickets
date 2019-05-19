@@ -38,7 +38,7 @@ public class cheapTiketsTest {
     private String Children = "1";
     private String ChildrenAge = "7";
     private String HotelName = "Faena Hotel Miami Beach";
-    private String ScreenShot = "CheckAssert";
+    private String ScreenShot = "CheckAssert1";
     /* -----------------------------------------------  */
 
 
