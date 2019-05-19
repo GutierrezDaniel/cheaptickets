@@ -1,4 +1,4 @@
-package cheapTiketsTest;
+package utils;
 
 public class resultsStrToInt {
 
