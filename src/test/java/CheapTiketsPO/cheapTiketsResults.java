@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -33,7 +34,7 @@ public class cheapTiketsResults {
     }
 
     public void SearchByProperty(String SearchProperty){
-
+        this.wait.until(ExpectedConditions.elementToBeClickable(searchByProperty));
         this.searchByProperty.click();
         this.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         this.searchByProperty.sendKeys(SearchProperty);

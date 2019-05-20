@@ -1,0 +1,7 @@
+EL test utiliza firefox version: 31
+
+link firefox 31: https://ftp.mozilla.org/pub/firefox/releases/31.0/win32/es-AR/
+
+link del repositorio en github: https://github.com/GutierrezDaniel/cheaptickets.git
+
+/* En Raras ocasiones la pagina de resultado de hoteles redirecciona a otra pagina distina, al correrlo de nuevo funciona */

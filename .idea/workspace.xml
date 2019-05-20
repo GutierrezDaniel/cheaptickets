@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6cb3773-361f-4ebf-8d3f-7c2b5844af04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CheapTiketsPO/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScreenShot/CheckAssert1.png" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenShot/CheckAssert1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cheapTiketsTest/cheapTiketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cheapTiketsTest/cheapTiketsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cheapTiketsTest/cheapTiketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cheapTiketsTest/cheapTiketsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,31 +22,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenShots.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsCalendars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="method#cheapTiketsCalendars#0;class#cheapTiketsCalendars#0" />
+                <element signature="method#setCalendarDay#0;class#cheapTiketsCalendars#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +37,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+            <state relative-caret-position="-192">
+              <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+              <folding>
+                <element signature="e#2133#2134#0" expanded="true" />
+                <element signature="e#2184#2185#0" expanded="true" />
+                <element signature="e#2226#2227#0" expanded="true" />
+                <element signature="e#2273#2274#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,14 +52,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsResults.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="612">
+              <caret line="36" column="83" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
                 <element signature="e#1405#1406#0" expanded="true" />
                 <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cheapTiketsTest/cheapTiketsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="165">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="method#checkResultsHotels#0;class#cheapTiketsTest#0" />
                 <element signature="method#checkValidResults#0;class#cheapTiketsTest#0" />
@@ -105,18 +93,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsCalendars.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/ScreenShots.java" />
         <option value="$PROJECT_DIR$/src/test/java/cheapTiketsTest/cheapTiketsTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsResults.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="51" />
+    <option name="x" value="96" />
+    <option name="y" value="312" />
     <option name="width" value="1079" />
     <option name="height" value="788" />
   </component>
@@ -125,8 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +178,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,24 +239,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="cheapTiketsTest - 2019.05.19 at 06h 24m 29s.xml">
-      <configuration name="cheapTiketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="cheapTiketsTest - 2019.05.19 at 06h 33m 27s.xml">
-      <configuration name="cheapTiketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="cheapTiketsTest - 2019.05.19 at 06h 54m 11s.xml">
-      <configuration name="cheapTiketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="cheapTiketsTest - 2019.05.19 at 06h 57m 17s.xml">
-      <configuration name="cheapTiketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="cheapTiketsTest - 2019.05.19 at 07h 03m 38s.xml">
-      <configuration name="cheapTiketsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="cheapTiketsTest - 2019.05.19 at 07h 28m 57s.xml">
-      <configuration name="cheapTiketsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="cheapTiketsTest - 2019.05.19 at 13h 05m 35s.xml">
       <configuration name="cheapTiketsTest" configurationId="TestNG" />
     </history-entry>
@@ -280,12 +251,38 @@
     <history-entry file="cheapTiketsTest - 2019.05.19 at 13h 14m 53s.xml">
       <configuration name="cheapTiketsTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="cheapTiketsTest - 2019.05.19 at 13h 18m 45s.xml">
+      <configuration name="cheapTiketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="cheapTiketsTest - 2019.05.19 at 13h 25m 45s.xml">
+      <configuration name="cheapTiketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="cheapTiketsTest - 2019.05.19 at 13h 29m 41s.xml">
+      <configuration name="cheapTiketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="cheapTiketsTest - 2019.05.19 at 20h 58m 30s.xml">
+      <configuration name="cheapTiketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="cheapTiketsTest - 2019.05.19 at 21h 01m 18s.xml">
+      <configuration name="cheapTiketsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="cheapTiketsTest - 2019.05.19 at 21h 08m 40s.xml">
+      <configuration name="cheapTiketsTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -294,12 +291,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32405892" />
@@ -324,48 +321,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/BasePage.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsCalendars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -379,10 +339,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsCalendars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="method#cheapTiketsCalendars#0;class#cheapTiketsCalendars#0" />
+            <element signature="method#setCalendarDay#0;class#cheapTiketsCalendars#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/CheapTiketsHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+          <folding>
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
+            <element signature="e#2273#2274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheapTiketsPO/cheapTiketsResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="83" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cheapTiketsTest/cheapTiketsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="165">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="method#checkResultsHotels#0;class#cheapTiketsTest#0" />
             <element signature="method#checkValidResults#0;class#cheapTiketsTest#0" />

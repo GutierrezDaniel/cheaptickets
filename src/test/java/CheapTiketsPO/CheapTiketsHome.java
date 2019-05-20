@@ -80,7 +80,9 @@ public class CheapTiketsHome {
     public void ChildrenBoxAndAge(String Children,String Age){
         Select dropChildren =  new Select(childrenLbl);
         dropChildren.selectByValue(Children);
-        this.driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+        //this.driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        this.wait.until(ExpectedConditions.elementToBeClickable(childrenAge));
         Select dropAge =  new Select(childrenAge);
         dropAge.selectByValue(Age);
     }
@@ -91,12 +93,14 @@ public class CheapTiketsHome {
     }
 
     public void clickCheckIn(){
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        this.wait.until(ExpectedConditions.elementToBeClickable(checkInDate));
         this.checkInDate.sendKeys("0");
     }
 
     public void clickCheckOut(){
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        this.wait.until(ExpectedConditions.elementToBeClickable(checkOutDate));
         this.checkOutDate.sendKeys("0");
     }
 

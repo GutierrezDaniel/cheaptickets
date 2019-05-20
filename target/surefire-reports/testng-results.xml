@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CheapTiketsTest" duration-ms="123930" started-at="2019-05-17T20:12:09Z" finished-at="2019-05-17T20:14:13Z">
+  <suite name="CheapTiketsTest" duration-ms="60312" started-at="2019-05-20T02:53:12Z" finished-at="2019-05-20T02:54:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="123930" started-at="2019-05-17T20:12:09Z" finished-at="2019-05-17T20:14:13Z">
+    <test name="Test" duration-ms="60312" started-at="2019-05-20T02:53:12Z" finished-at="2019-05-20T02:54:12Z">
       <class name="cheapTiketsTest.cheapTiketsTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@369f73a2]" name="openBrowser" is-config="true" duration-ms="47760" started-at="2019-05-17T20:12:09Z" finished-at="2019-05-17T20:12:57Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@6325a3ee]" name="openBrowser" is-config="true" duration-ms="12071" started-at="2019-05-20T02:53:12Z" finished-at="2019-05-20T02:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="cheapTiketsTest()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@369f73a2]" name="cheapTiketsTest" duration-ms="76068" started-at="2019-05-17T20:12:57Z" finished-at="2019-05-17T20:14:13Z">
+        <test-method status="PASS" signature="cheapTiketsTest()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@6325a3ee]" name="cheapTiketsTest" duration-ms="47089" started-at="2019-05-20T02:53:24Z" finished-at="2019-05-20T02:54:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cheapTiketsTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@6325a3ee]" name="closeBrowser" is-config="true" duration-ms="1135" started-at="2019-05-20T02:54:11Z" finished-at="2019-05-20T02:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- cheapTiketsTest.cheapTiketsTest -->
     </test> <!-- Test -->
   </suite> <!-- CheapTiketsTest -->
