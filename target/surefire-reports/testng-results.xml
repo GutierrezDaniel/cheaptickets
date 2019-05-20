@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="CheapTiketsTest" duration-ms="60312" started-at="2019-05-20T02:53:12Z" finished-at="2019-05-20T02:54:12Z">
+  <suite name="CheapTiketsTest" duration-ms="60004" started-at="2019-05-20T02:58:55Z" finished-at="2019-05-20T02:59:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60312" started-at="2019-05-20T02:53:12Z" finished-at="2019-05-20T02:54:12Z">
+    <test name="Test" duration-ms="60004" started-at="2019-05-20T02:58:55Z" finished-at="2019-05-20T02:59:55Z">
       <class name="cheapTiketsTest.cheapTiketsTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@6325a3ee]" name="openBrowser" is-config="true" duration-ms="12071" started-at="2019-05-20T02:53:12Z" finished-at="2019-05-20T02:53:24Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@1f28c152]" name="openBrowser" is-config="true" duration-ms="15825" started-at="2019-05-20T02:58:55Z" finished-at="2019-05-20T02:59:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="cheapTiketsTest()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@6325a3ee]" name="cheapTiketsTest" duration-ms="47089" started-at="2019-05-20T02:53:24Z" finished-at="2019-05-20T02:54:11Z">
+        <test-method status="PASS" signature="cheapTiketsTest()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@1f28c152]" name="cheapTiketsTest" duration-ms="43592" started-at="2019-05-20T02:59:11Z" finished-at="2019-05-20T02:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cheapTiketsTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@6325a3ee]" name="closeBrowser" is-config="true" duration-ms="1135" started-at="2019-05-20T02:54:11Z" finished-at="2019-05-20T02:54:12Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:cheapTiketsTest.cheapTiketsTest@1f28c152]" name="closeBrowser" is-config="true" duration-ms="568" started-at="2019-05-20T02:59:54Z" finished-at="2019-05-20T02:59:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
