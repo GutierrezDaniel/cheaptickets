@@ -11,9 +11,9 @@ Codigo en cheapTiketsTest
 
 
 {
-  56      Calendars.setCalendarDay(21); <------- Remplazar fecha checkin
-  57      CheapTikets.clickCheckOut();
-  58      Calendars.setCalendarDay(22); <------- Remplazar fecha Checkout
+      Calendars.setCalendarDay(21); <------- Remplazar fecha checkin
+      CheapTikets.clickCheckOut();
+      Calendars.setCalendarDay(22); <------- Remplazar fecha Checkout
 }
 
 /* En raras ocasiones la pagina de resultados de hoteles redirecciona a otra pagina distinta, al correrlo de nuevo funciona */
